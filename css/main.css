@@ -1,0 +1,49 @@
+/* Add your CSS styles here to replicate the website's appearance */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.chocolate-selection, .cart {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.chocolate-item {
+    margin-bottom: 10px;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#total-price {
+    font-weight: bold;
+}
