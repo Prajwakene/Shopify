@@ -159,6 +159,42 @@ body{
             flex-direction: column;
             transform: translateX(0);
          }
+         &:hover{
+            background-color: $color-black;
+            color: $color-white;
+         }
     }
+    
 }
+.btn-movile-nav{
+    border: none;
+    background: none;
+    display: none;
+    z-index: 1;
+    @media only screen and (max-width: $bp-large){
+        display: block;
+     }
+}
+.icon-mobile-nav{
+    font-size: 4rem;
+    cursor: pointer;
+}
+.icon-mobile-nav[name="close-outline"]{
+    display: none;
+}
+.nav-open .main-nav{
+    @media only screen and (max-width: $bp-large){
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateX(0);
+     }
+}
+.nav-open .icon-mobile-nav[name="close-outline"]{
+    display: block;
+}
+.nav-open .icon-mobile-nav[name="menu-outline"]{
+    display: none;
+}
+
 
