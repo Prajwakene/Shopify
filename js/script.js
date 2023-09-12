@@ -38,6 +38,7 @@ function updateCart() {
         total += calculateChocolatePrice(chocolate);
     });
 
+    
     totalPrice.textContent = `$${total.toFixed(2)}`;
 }
 
