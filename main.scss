@@ -641,8 +641,11 @@ body {
     &__text {
         font-size: 1.4rem;
     }
-
-    &__item {}
+    &__list{
+        & > *:not(:last-child){
+            margin-bottom: 2.5rem;
+        }
+    }
 
     &__link {
         font-size: 1.6rem;

@@ -553,6 +553,9 @@ body {
 .footer__text {
   font-size: 1.4rem;
 }
+.footer__list > *:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
 .footer__link {
   font-size: 1.6rem;
   color: #B6B6B6;
